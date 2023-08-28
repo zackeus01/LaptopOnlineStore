@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+h3{
+    color: black;
+}
+.fa-camera{
+    font-size: 40px;
+}
+.add_form {
+    height: auto;
+    width: 80%;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 3%;
+    background-color: #ffffff;
+    border: solid 2px;
+}
+.image{
+    margin-top: 100px;
+}
+.add_img {
+    /* float: left; */
+    height: 200px;
+    width: 250px;
+    text-align: center;
+    border: solid 2px;
+    background-color: white;
+    margin-left: 40%;
+}
+._img{
+    height: 198px;
+    width: 247px;
+}
+.colorSelect {
+    width: 150px;
+}
+
+.colorSet {
+    width: 50px;
+    height: 20px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 10px;
+}
+#button_cam{
+    margin-top: 70px;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+.cont_addprod {
+    width: 120%;
+    padding: 5%;
+    margin-right: 0 ;
+}
+
+.content_inf {
+    /* width:200%; */
+    /* height: 10%; */
+    margin-bottom: 2%;
+    size: 30px;
+
+}
+.button{
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.btn_save{
+    text-align: center;
+    margin-left: 1%;
+}
+.btn_cancel:hover{
+    background-color: azure;
+}
+.btn_save:hover{
+    background-color: aqua;
+}
+.ctn-add{
+    display: flex;
+    margin-bottom: 2%;
+    justify-content: space-between;
+    width: 50%;
+}

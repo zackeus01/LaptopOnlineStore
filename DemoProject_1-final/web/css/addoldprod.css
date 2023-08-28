@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.dropdown {
+    text-align: center;
+    /*margin-bottom: 5%*/
+    margin-right: 5%;
+}
+.ctn-add {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    width: 50%;
+    border: solid 2px;
+    margin-left: 5%;
+    margin-top: 5%;
+    height: auto;
+    padding-bottom: 2%;
+    background-color: #ffffff;
+}
+.inp_ctn{
+    width:40%;
+    margin-top:3%;
+    margin-left: 5%;
+    
+}
+.button{
+    cursor: pointer;
+    font-size: 20px;  
+    text-align: center; 
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.btn_save{
+    text-align: center;
+    margin-left: 1%;
+}
+.btn_cancel:hover{
+    background-color: azure;
+}
+.btn_save:hover{
+    background-color: aqua;
+}
